@@ -1,23 +1,13 @@
 /* globals window */
 
 const stagingEnv = {
-  FIREBASE_API_KEY: `AIzaSyBqTBSDH1SwUMp1d3w_NgoxJEFxvz5Z4Ag`,
-  FIREBASE_AUTH_DOMAIN: `syncspot-staging.firebaseapp.com`,
-  FIREBASE_DATABASE_URL: `https://syncspot-staging.firebaseio.com`,
-  FIREBASE_PROJECT_ID: `syncspot-staging`,
-  FIREBASE_STORAGE_BUCKET: `syncspot-staging.appspot.com`,
-  FIREBASE_SENDER_ID: `697671764184`,
+
 };
 
 const devEnv = stagingEnv;
 
 const productionEnv = {
-  FIREBASE_API_KEY: `AIzaSyB3_QJqFfXVtZD2nUj6aUYQGGhrsL9B03s`,
-  FIREBASE_AUTH_DOMAIN: `syncspot-aafad.firebaseapp.com`,
-  FIREBASE_DATABASE_URL: `https://syncspot-aafad.firebaseio.com`,
-  FIREBASE_PROJECT_ID: `syncspot-aafad`,
-  FIREBASE_STORAGE_BUCKET: `syncspot-aafad.appspot.com`,
-  FIREBASE_SENDER_ID: `189656861585`,
+
 };
 
 let staging = null;
